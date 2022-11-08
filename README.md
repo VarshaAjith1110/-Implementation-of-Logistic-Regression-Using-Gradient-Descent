@@ -21,7 +21,7 @@ Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: VARSHA AJITH
 RegisterNumber:  212221230118
 */
-```
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize
