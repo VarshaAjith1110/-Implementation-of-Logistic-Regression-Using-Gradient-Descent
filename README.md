@@ -105,7 +105,7 @@ def predict(theta,X):
     prob=sigmoid(np.dot(X_train,theta))
     return (prob>=0.5).astype(int)
 np.mean(predict(res.x,X)==y)
-
+```
 ## Output:
 ![op1](https://user-images.githubusercontent.com/94222288/200590486-253273eb-3d8f-4514-9e1f-94f2bc7a2142.png)
 ![op2](https://user-images.githubusercontent.com/94222288/200590551-8b44e4fc-ad10-4751-8c91-7cabdadf4102.png)
